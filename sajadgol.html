@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>سجاد GOL | Digital Card</title>
+
+
+<!-- =========================
+     GOOGLE FONTS
+========================= -->
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lalezar&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+
+
+<!-- =========================
+     FONT AWESOME
+========================= -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+<style>
+
+/* ==================================================
+   COLORS
+================================================== */
+
+:root{
+
+    --black:#080808;
+
+    --black-soft:#101010;
+
+    --card:#141414;
+
+    --card-hover:#1a1a1a;
+
+    --cream:#f4ecdf;
+
+    --cream-soft:#d8cbbb;
+
+    --gold:#d59a55;
+
+    --orange:#c97832;
+
+    --brown:#805c40;
+
+    --gray:#89827a;
+
+    --border:rgba(244,236,223,.13);
+
+}
+
+
+/* ==================================================
+   RESET
+================================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+/* ==================================================
+   BODY
+================================================== */
+
+body{
+
+    min-height:100vh;
+
+    background:
+
+        radial-gradient(
+            circle at 50% -5%,
+            rgba(213,154,85,.16),
+            transparent 35%
+        ),
+
+        radial-gradient(
+            circle at 0% 100%,
+            rgba(128,92,64,.13),
+            transparent 35%
+        ),
+
+        #080808;
+
+    color:var(--cream);
+
+    font-family:"Vazirmatn",sans-serif;
+
+    padding:25px 15px 40px;
+
+}
+
+
+/* ==================================================
+   MAIN CONTAINER
+================================================== */
+
+.container{
+
+    width:100%;
+
+    max-width:440px;
+
+    margin:auto;
+
+}
+
+
+/* ==================================================
+   TOP DECORATION
+================================================== */
+
+.top-decoration{
+
+    text-align:center;
+
+    margin-bottom:24px;
+
+}
+
+.top-decoration .flower{
+
+    color:var(--gold);
+
+    font-size:20px;
+
+}
+
+.top-decoration .line{
+
+    display:inline-block;
+
+    width:45px;
+
+    height:1px;
+
+    background:var(--gold);
+
+    vertical-align:middle;
+
+    margin:0 8px;
+
+    opacity:.7;
+
+}
+
+
+/* ==================================================
+   PROFILE
+================================================== */
+
+.profile{
+
+    text-align:center;
+
+}
+
+
+/* ==================================================
+   LOGO
+================================================== */
+
+.logo-frame{
+
+    width:125px;
+
+    height:125px;
+
+    margin:auto;
+
+    padding:5px;
+
+    border-radius:50%;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            var(--gold),
+            var(--cream),
+            var(--brown)
+        );
+
+    box-shadow:
+
+        0 0 0 1px rgba(255,255,255,.05),
+
+        0 18px 50px rgba(0,0,0,.55);
+
+}
+
+
+.logo{
+
+    width:100%;
+
+    height:100%;
+
+    border-radius:50%;
+
+    overflow:hidden;
+
+    background:#f4ecdf;
+
+}
+
+
+.logo img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+/* ==================================================
+   BRAND NAME
+================================================== */
+
+.brand-name{
+
+    margin-top:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    direction:rtl;
+
+    gap:8px;
+
+}
+
+
+/* Persian */
+
+.brand-persian{
+
+    font-family:"Lalezar",sans-serif;
+
+    font-size:31px;
+
+    line-height:1;
+
+    color:var(--cream);
+
+    letter-spacing:-1px;
+
+}
+
+
+/* English */
+
+.brand-english{
+
+    font-family:"Anton",sans-serif;
+
+    font-size:31px;
+
+    line-height:1;
+
+    letter-spacing:1px;
+
+    color:var(--cream);
+
+}
+
+
+/* Instagram ID */
+
+.username{
+
+    direction:ltr;
+
+    margin-top:8px;
+
+    color:var(--gold);
+
+    font-family:Arial,sans-serif;
+
+    font-size:13px;
+
+    letter-spacing:.5px;
+
+}
+
+
+/* ==================================================
+   DESCRIPTION
+================================================== */
+
+.description{
+
+    margin-top:17px;
+
+    padding:15px 18px;
+
+    border-radius:18px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            rgba(244,236,223,.055),
+            rgba(213,154,85,.035)
+        );
+
+    border:1px solid var(--border);
+
+    color:var(--cream-soft);
+
+    font-size:12px;
+
+    line-height:2;
+
+}
+
+
+.description .title{
+
+    color:var(--cream);
+
+    font-weight:600;
+
+    font-size:14px;
+
+}
+
+
+.description .flower{
+
+    color:var(--gold);
+
+    padding:0 3px;
+
+}
+
+
+/* ==================================================
+   LINKS
+================================================== */
+
+.links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:11px;
+
+    margin-top:22px;
+
+}
+
+
+/* ==================================================
+   LINK CARD
+================================================== */
+
+.link{
+
+    min-height:70px;
+
+    width:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    color:var(--cream);
+
+    padding:10px 12px;
+
+    border-radius:18px;
+
+    background:
+
+        linear-gradient(
+            110deg,
+            rgba(244,236,223,.065),
+            rgba(255,255,255,.018)
+        );
+
+    border:1px solid var(--border);
+
+    transition:
+
+        transform .25s ease,
+
+        background .25s ease,
+
+        border-color .25s ease;
+
+}
+
+
+.link:hover{
+
+    transform:translateY(-3px);
+
+    background:
+
+        linear-gradient(
+            110deg,
+            rgba(213,154,85,.10),
+            rgba(255,255,255,.025)
+        );
+
+    border-color:
+
+        rgba(213,154,85,.3);
+
+}
+
+
+/* ==================================================
+   ICON BOX
+================================================== */
+
+.icon{
+
+    width:48px;
+
+    height:48px;
+
+    flex-shrink:0;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#0c0c0c;
+
+    border:1px solid rgba(244,236,223,.09);
+
+    font-size:21px;
+
+}
+
+
+/* ==================================================
+   PHONE
+================================================== */
+
+.phone .icon{
+
+    color:#d7b77c;
+
+}
+
+
+/* ==================================================
+   TELEGRAM
+================================================== */
+
+.telegram .icon{
+
+    color:#70aebd;
+
+}
+
+
+/* ==================================================
+   INSTAGRAM
+================================================== */
+
+.instagram .icon{
+
+    color:#d48b67;
+
+}
+
+
+/* ==================================================
+   WEBSITE
+================================================== */
+
+.website .icon{
+
+    color:var(--gold);
+
+}
+
+
+/* ==================================================
+   LINK TEXT
+================================================== */
+
+.link-text{
+
+    flex:1;
+
+    text-align:right;
+
+    padding-right:14px;
+
+}
+
+
+/* English title */
+
+.link-title{
+
+    display:block;
+
+    direction:ltr;
+
+    text-align:right;
+
+    font-family:"Vazirmatn",sans-serif;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:var(--cream);
+
+}
+
+
+/* Persian subtitle */
+
+.link-subtitle{
+
+    display:block;
+
+    margin-top:4px;
+
+    font-size:10.5px;
+
+    color:var(--gray);
+
+}
+
+
+/* arrow */
+
+.arrow{
+
+    color:#5d5751;
+
+    font-size:10px;
+
+    margin-left:4px;
+
+}
+
+
+/* ==================================================
+   WEBSITE SPECIAL
+================================================== */
+
+.website{
+
+    background:
+
+        linear-gradient(
+            110deg,
+            rgba(213,154,85,.09),
+            rgba(244,236,223,.025)
+        );
+
+}
+
+
+/* ==================================================
+   BOTTOM ACTIONS
+================================================== */
+
+.actions{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:10px;
+
+    margin-top:15px;
+
+}
+
+
+.action{
+
+    min-height:78px;
+
+    border-radius:18px;
+
+    background:#121212;
+
+    border:1px solid var(--border);
+
+    color:var(--cream);
+
+    font-family:"Vazirmatn",sans-serif;
+
+    cursor:pointer;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    transition:.25s;
+
+}
+
+
+.action:hover{
+
+    transform:translateY(-3px);
+
+    background:#191919;
+
+}
+
+
+.action i{
+
+    font-size:20px;
+
+}
+
+
+.action span{
+
+    font-size:10.5px;
+
+    color:var(--gray);
+
+}
+
+
+/* action colors */
+
+.save i{
+
+    color:#c9ae7a;
+
+}
+
+.share i{
+
+    color:#c98969;
+
+}
+
+.qr i{
+
+    color:var(--gold);
+
+}
+
+
+/* ==================================================
+   QR BOX
+================================================== */
+
+.qr-box{
+
+    display:none;
+
+    margin-top:14px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    background:#111;
+
+    border:1px solid var(--border);
+
+}
+
+
+.qr-box.show{
+
+    display:block;
+
+    animation:fade .3s ease;
+
+}
+
+
+.qr-box img{
+
+    width:190px;
+
+    height:190px;
+
+    background:white;
+
+    padding:8px;
+
+    border-radius:14px;
+
+}
+
+
+.qr-box p{
+
+    margin-top:10px;
+
+    font-size:10px;
+
+    color:var(--gray);
+
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:27px;
+
+    color:#514b45;
+
+    font-family:"Anton",sans-serif;
+
+    font-size:10px;
+
+    letter-spacing:2px;
+
+}
+
+
+.footer span{
+
+    color:var(--gold);
+
+    padding:0 5px;
+
+}
+
+
+/* ==================================================
+   ANIMATION
+================================================== */
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-5px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media(max-width:380px){
+
+    body{
+
+        padding-left:12px;
+
+        padding-right:12px;
+
+    }
+
+
+    .logo-frame{
+
+        width:112px;
+
+        height:112px;
+
+    }
+
+
+    .brand-persian,
+    .brand-english{
+
+        font-size:28px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <!-- =========================================
+         TOP
+    ========================================== -->
+
+    <div class="top-decoration">
+
+        <span class="flower">✿</span>
+
+        <span class="line"></span>
+
+        <span class="flower">✿</span>
+
+    </div>
+
+
+
+    <!-- =========================================
+         PROFILE
+    ========================================== -->
+
+    <section class="profile">
+
+
+        <!-- LOGO -->
+
+        <div class="logo-frame">
+
+            <div class="logo">
+
+                <!--
+                    لوگوی پیج را با نام logo.png
+                    کنار فایل HTML قرار بده
+                -->
+
+                <img
+                    src="logo.png"
+                    alt="Sajad Gol">
+
+            </div>
+
+        </div>
+
+
+
+        <!-- BRAND NAME -->
+
+        <div class="brand-name">
+
+            <span class="brand-persian">
+                سجاد
+            </span>
+
+            <span class="brand-english">
+                GOL
+            </span>
+
+        </div>
+
+
+
+        <!-- USERNAME -->
+
+        <div class="username">
+
+            @sajad_.gol
+
+        </div>
+
+
+
+        <!-- DESCRIPTION -->
+
+        <div class="description">
+
+            <div class="title">
+
+                <span class="flower">✿</span>
+
+                گلفروشی سجاد گل
+
+                <span class="flower">✿</span>
+
+            </div>
+
+            گل‌های زیبا برای لحظه‌های خاص شما
+
+            <br>
+
+            سفارش و ارسال گل در رشت
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         MAIN LINKS
+         ORDER:
+         1 PHONE
+         2 TELEGRAM
+         3 INSTAGRAM
+         4 WEBSITE
+    ========================================== -->
+
+    <div class="links">
+
+
+        <!-- ================= PHONE ================= -->
+
+        <a
+            class="link phone"
+            href="tel:+989369855063"
+        >
+
+            <div class="icon">
+
+                <i class="fa-solid fa-phone"></i>
+
+            </div>
+
+
+            <div class="link-text">
+
+                <span class="link-title">
+                    Phone Number
+                </span>
+
+                <span class="link-subtitle">
+                    شماره موبایل
+                </span>
+
+            </div>
+
+
+            <i class="fa-solid fa-chevron-left arrow"></i>
+
+        </a>
+
+
+
+        <!-- ================= TELEGRAM ================= -->
+
+        <a
+            class="link telegram"
+            href="https://t.me/Sajadtna"
+            target="_blank"
+        >
+
+            <div class="icon">
+
+                <i class="fa-brands fa-telegram"></i>
+
+            </div>
+
+
+            <div class="link-text">
+
+                <span class="link-title">
+                    Telegram
+                </span>
+
+                <span class="link-subtitle">
+                    تلگرام
+                </span>
+
+            </div>
+
+
+            <i class="fa-solid fa-chevron-left arrow"></i>
+
+        </a>
+
+
+
+        <!-- ================= INSTAGRAM ================= -->
+
+        <a
+            class="link instagram"
+            href="https://instagram.com/sajad_.gol"
+            target="_blank"
+        >
+
+            <div class="icon">
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </div>
+
+
+            <div class="link-text">
+
+                <span class="link-title">
+                    Instagram
+                </span>
+
+                <span class="link-subtitle">
+                    اینستاگرام
+                </span>
+
+            </div>
+
+
+            <i class="fa-solid fa-chevron-left arrow"></i>
+
+        </a>
+
+
+
+        <!-- ================= WEBSITE ================= -->
+
+        <a
+            class="link website"
+            href="https://sajadgol.ir/"
+            target="_blank"
+        >
+
+            <div class="icon">
+
+                <i class="fa-solid fa-globe"></i>
+
+            </div>
+
+
+            <div class="link-text">
+
+                <span class="link-title">
+                    Website
+                </span>
+
+                <span class="link-subtitle">
+                    وب‌سایت
+                </span>
+
+            </div>
+
+
+            <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+
+        </a>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         ACTIONS
+    ========================================== -->
+
+    <div class="actions">
+
+
+        <!-- SAVE CONTACT -->
+
+        <button
+            class="action save"
+            onclick="saveContact()"
+        >
+
+            <i class="fa-solid fa-address-book"></i>
+
+            <span>
+                Save Contact
+            </span>
+
+        </button>
+
+
+
+        <!-- SHARE -->
+
+        <button
+            class="action share"
+            onclick="shareCard()"
+        >
+
+            <i class="fa-solid fa-share-nodes"></i>
+
+            <span>
+                Share
+            </span>
+
+        </button>
+
+
+
+        <!-- QR -->
+
+        <button
+            class="action qr"
+            onclick="toggleQR()"
+        >
+
+            <i class="fa-solid fa-qrcode"></i>
+
+            <span>
+                QR Code
+            </span>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         QR CODE
+    ========================================== -->
+
+    <div
+        class="qr-box"
+        id="qrBox"
+    >
+
+        <img
+            id="qrImage"
+            alt="QR Code">
+
+        <p>
+            Scan to open Sajad Gol
+        </p>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <span>✿</span>
+
+        SAJAD GOL
+
+        <span>✿</span>
+
+    </div>
+
+
+</div>
+
+
+
+<script>
+
+
+/* ==================================================
+   SAVE CONTACT
+================================================== */
+
+function saveContact(){
+
+    const vcard =
+`BEGIN:VCARD
+VERSION:3.0
+FN:سجاد گل
+ORG:سجاد گل
+TEL;TYPE=CELL:+989369855063
+URL:https://sajadgol.ir/
+NOTE:گلفروشی سجاد گل - رشت
+END:VCARD`;
+
+    const blob = new Blob(
+        [vcard],
+        {
+            type:"text/vcard;charset=utf-8"
+        }
+    );
+
+
+    const url =
+        URL.createObjectURL(blob);
+
+
+    const a =
+        document.createElement("a");
+
+
+    a.href = url;
+
+    a.download = "Sajad-Gol.vcf";
+
+
+    document.body.appendChild(a);
+
+    a.click();
+
+    a.remove();
+
+
+    URL.revokeObjectURL(url);
+
+}
+
+
+/* ==================================================
+   SHARE
+================================================== */
+
+async function shareCard(){
+
+    const shareData = {
+
+        title:"سجاد گل",
+
+        text:
+        "کارت دیجیتال سجاد گل 🌷",
+
+        url:
+        "https://sajadgol.ir/"
+
+    };
+
+
+    if(navigator.share){
+
+        try{
+
+            await navigator.share(
+                shareData
+            );
+
+        }
+
+        catch(error){
+
+            console.log(
+                "Share cancelled"
+            );
+
+        }
+
+    }
+
+    else{
+
+        try{
+
+            await navigator.clipboard.writeText(
+                "https://sajadgol.ir/"
+            );
+
+            alert(
+                "لینک کارت کپی شد"
+            );
+
+        }
+
+        catch(error){
+
+            alert(
+                "https://sajadgol.ir/"
+            );
+
+        }
+
+    }
+
+}
+
+
+/* ==================================================
+   QR CODE
+================================================== */
+
+function toggleQR(){
+
+    const box =
+        document.getElementById(
+            "qrBox"
+        );
+
+
+    const image =
+        document.getElementById(
+            "qrImage"
+        );
+
+
+    if(!box.classList.contains("show")){
+
+        const data =
+            encodeURIComponent(
+                "https://sajadgol.ir/"
+            );
+
+
+        image.src =
+            "https://api.qrserver.com/v1/create-qr-code/?size=400x400&data="
+            + data;
+
+    }
+
+
+    box.classList.toggle("show");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
